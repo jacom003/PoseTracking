@@ -1,0 +1,31 @@
+# Treat text files as UTF-8 with LF in repo
+*           text=auto eol=lf
+
+# Unity text assets (YAML)
+*.meta      text eol=lf
+*.unity     text eol=lf
+*.prefab    text eol=lf
+*.asset     text eol=lf
+*.anim      text eol=lf
+*.controller text eol=lf
+
+# Code & shaders
+*.cs        text eol=lf
+*.shader    text eol=lf
+*.cginc     text eol=lf
+*.hlsl      text eol=lf
+
+# Binary assets
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.bmp       binary
+*.tga       binary
+*.psd       binary
+*.fbx       binary
+*.wav       binary
+*.mp3       binary
+*.ogg       binary
+*.dll       binary
+*.so        binary
+*.dylib     binary
