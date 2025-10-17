@@ -1,0 +1,41 @@
+# === Unity Project Git Ignore ===
+# Core Unity folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild*/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+MemoryCaptures/
+SysInfo.txt
+.vs/
+.vscode/
+.DS_Store
+
+# Unity auto-generated files
+ExportedObj/
+Assets/AssetStoreTools*
+
+# Ignore package cache but keep manifest and lock
+Packages/*
+!/Packages/manifest.json
+!/Packages/packages-lock.json
+
+# IDE and build junk
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# OS junk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
