@@ -11,6 +11,7 @@ SysInfo.txt
 .vs/
 .vscode/
 .DS_Store
+Assets/StreamingAssets/test_model.onnx
 
 # Unity auto-generated files
 ExportedObj/
